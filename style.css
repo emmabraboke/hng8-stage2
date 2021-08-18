@@ -1,0 +1,113 @@
+
+body{
+    background-color: rgb(231, 66, 94);
+    
+    margin-bottom: 40px;
+    font-family: Garamond;
+    
+    /* background-image: url("i4g.png");
+    background-repeat: no-repeat; */
+    
+      
+}
+
+h1{
+    font-size: 50px;
+}
+
+header{
+ margin: 0px 10px 25px 10px ;
+ text-align: center;
+ height: auto;
+ padding: 50px;
+}
+header img{
+  height: 15px;
+  width:  15px;
+}
+header a{
+    margin-right: 12px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    color:black;
+}
+nav img{
+    height: 80px;
+    width: 200px;
+}
+#title{
+    font-size: 27px;
+}
+/* #img{
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+
+} */
+
+div{
+    position: relative;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+    box-sizing: content-box;
+    height: auto;
+    overflow: hidden;
+    width:70%;
+}
+p{
+font-size: 20px;
+margin-right: 20px;
+font-family: Garamond;
+}
+@media only screen  and (max-width: 800px) {
+    header a{
+      
+        /* margin: 10px auto 10px auto; */
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px;
+     
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+    }
+    }
+    img{
+     margin-right: 5px
+}
+
+    
+@media only screen  and (max-width: 942px) and (min-width: 801px) {
+
+    .links{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* grid-template-rows:; */
+        width: 80%;
+         margin-left: auto; 
+        margin-right: auto; 
+        margin-left: 25%;
+        
+    }
+    header a{
+      
+        /* margin: 10px auto 10px auto; */
+        text-align: left;
+        margin-bottom: 4px;
+}
+
+}
